@@ -1,0 +1,7 @@
+from properties.utils import get_redis_cache_metrics
+print(get_redis_cache_metrics())
+{
+  "hits": 25,
+  "misses": 5,
+  "hit_ratio": 0.83
+}
